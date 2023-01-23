@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FirebaseAuth</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint">
+        <item name="android:margintleft">Email</item>
+    </string>
+    <string name="passHint">
+    <item name="android:margintleft">Password</item>
+    </string>
+    <string name="twitter_consumer_key">qBhY1TlQRa07FaRHdh6Cbi7sm</string>
+    <string name="twitter_consumer_secret">L0NP5opOqwy7A89iQPAljCOasEl1KZ0x1ceo8Tx4RZiPi83WVA</string>
+    <string name="googleIdToken">1039767538853-6jjnmkprl5395fbpcr86vca981d57c5s.apps.googleusercontent.com</string>
+    <string name="facebookId">2342131725810594</string>
+</resources>

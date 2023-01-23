@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/email"
+        android:icon="@drawable/mail"
+        android:title="Mail" />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="Search" />
+    <item
+        android:id="@+id/facebook"
+        android:icon="@drawable/facebook"
+        android:title="Facebook" />
+    <item
+        android:id="@+id/phone"
+        android:icon="@drawable/phone"
+        android:title="Phone" />
+    <item
+        android:id="@+id/twitter"
+        android:icon="@drawable/twitter"
+        android:title="Twitter" />
+    <item
+        android:id="@+id/github"
+        android:icon="@drawable/github"
+        android:title="Github" />
+    <item
+        android:id="@+id/incognito"
+        android:icon="@drawable/incognito"
+        android:title="Anonymous" />
+</menu>

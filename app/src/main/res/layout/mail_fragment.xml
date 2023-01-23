@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.mailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="58dp"
+        app:tabMode="fixed"
+        android:layout_marginTop="200dp"
+        android:id="@+id/tabLayoutmail">
+    </com.google.android.material.tabs.TabLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="58dp"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="250dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Email"
+            android:maxLength="25"
+            android:layout_marginTop="310dp"
+            android:id="@+id/edtEmail"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtTabPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="58dp"
+        android:focusableInTouchMode="false"
+        android:layout_marginTop="320dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="@string/passHint"
+            android:imeOptions="actionDone"
+            android:layout_marginTop="360dp"
+            android:maxLength="16"
+            android:id="@+id/edtPassword"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="400dp"
+        android:id="@+id/btnLogIn"
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="58dp"
+        android:background="@drawable/editbutton"
+        android:textSize="15dp"
+        android:hint="Name"
+        android:textColor="#FFFFFF"
+        android:text="Log   in"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="58dp"
+        android:visibility="invisible"
+        android:focusableInTouchMode="false"
+        android:layout_marginTop="250dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Name"
+            android:maxLength="25"
+            android:layout_marginTop="250dp"
+            android:visibility="invisible"
+            android:imeOptions="actionNext"
+            android:id="@+id/edtname"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtEmailSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="58dp"
+        android:visibility="invisible"
+        android:focusableInTouchMode="false"
+        android:layout_marginTop="320dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Email"
+            android:maxLength="25"
+            android:layout_marginTop="320dp"
+            android:visibility="invisible"
+            android:imeOptions="actionNext"
+            android:id="@+id/edtEmailSignUp"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtPasswordSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="58dp"
+        android:visibility="invisible"
+        android:focusableInTouchMode="false"
+        android:layout_marginTop="390dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Password"
+            android:maxLength="16"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="390dp"
+            android:visibility="invisible"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:id="@+id/edtPasswordSignUp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/editbutton"
+        android:id="@+id/btnSignIn"
+        android:visibility="invisible"
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="58dp"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:text="Sign Up"/>
+
+</FrameLayout>

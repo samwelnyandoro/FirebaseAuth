@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.facebookFragment">
+  <com.facebook.login.widget.LoginButton
+        android:id="@+id/loginbutton"
+        xmlns:facebook="http://schemas.android.com/apk/res-auto"
+        facebook:com_facebook_login_text=" Login with Facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="17dp"
+        android:paddingBottom="15dp"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center_horizontal"
+        android:text="connect_with_facebook" />
+
+
+</FrameLayout>
